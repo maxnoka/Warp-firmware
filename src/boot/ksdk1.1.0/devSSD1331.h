@@ -43,3 +43,4 @@ typedef enum
 } SSD1331Commands;
 
 int	devSSD1331init(void);
+int changeBrightnessdevSSD1331(uint8_t contrast);
